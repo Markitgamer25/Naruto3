@@ -26,7 +26,7 @@ body{
 .hiper{
     display: inline;
     padding: 40px;
-    margin-bottom: 5    0px;
+    margin-bottom:50px;
 }
 
 .imagenesIntro{
@@ -50,7 +50,7 @@ img:hover{
     height: 210px;
     border: 2px solid black;
     padding: 2%;
-    background-color: red
+    background-color: red;
     margin: 5%;    
 
     position: static;
@@ -60,7 +60,7 @@ img:hover{
     height: 210px;
     border: 2px solid black;
     padding: 2%;
-    background-color: yellowgreen
+    background-color: yellowgreen;
     margin: 5%; 
     
     position: fixed;
@@ -73,7 +73,7 @@ img:hover{
     height: 210px;
     border: 2px solid black;
     padding: 2%;
-    background-color: orangered
+    background-color: orangered;
     margin: 5%; 
     
     position: relative;
@@ -89,11 +89,23 @@ img:hover{
     height: 210px;
     border: 2px solid black;
     padding: 2%;
-    background-color: grey
+    background-color: grey;
     margin: 5%;  
     
     position: absolute;
     top: 40px;
     right: 40px;
 
+}
+#sasuke:hover{
+    transition-duration: 0,1s;
+    transition-timing-function: ease-in-out;
+    transform: perspective(65%);
+    filter: blur(50px);
+}
+#uwu:hover{
+    transition-duration: 0,1s;
+    transition-timing-function: ease-in-out;
+    transform: perspective(65%);
+    filter: blur(1px);
 }
